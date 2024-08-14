@@ -1,4 +1,3 @@
-# Robot-Navigatio
 # README for Ground Robot Path Planning using Reinforcement Learning
 
 ## Project Overview
