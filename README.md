@@ -1,6 +1,7 @@
 # README for Ground Robot Path Planning using Reinforcement Learning
 
 ## Project Overview
+![simulation (online-video-cutter com)](https://github.com/user-attachments/assets/25083a75-8df1-4804-b83e-1dc7f42ba92b)
 
 This project involves designing and implementing an optimal control strategy for two identical ground robots (G1 and G2) within a 10m x 10m arena, with static circular obstacles. The goal is to find the optimal control that drives the ground robots to their respective destinations in minimum time while maintaining a minimum distance of 0.2m from the static obstacles and 0.5m from each other. The environment is modeled with a known coefficient of friction and maximum acceleration input.
 
@@ -56,7 +57,6 @@ To run the project, you will need to install the following libraries:
 - TensorFlow or PyTorch
 - Stable-Baselines3 (for pre-implemented RL algorithms)
 
-You can install these libraries using pip:
+## Regrets Plot
+![results](https://github.com/user-attachments/assets/9fd22a15-0f4b-4887-a6e4-05f54ec9ec7e)
 
-```bash
-pip install numpy gym tensorflow stable-baselines3
